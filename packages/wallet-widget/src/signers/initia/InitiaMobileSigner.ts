@@ -225,6 +225,10 @@ export default class InitiaMobileSigner extends BaseSigner {
     throw new Error("Initia Wallet does not support arbitrary signing yet")
   }
 
+  async signAndBroadcastSync(chainId: string, tx: Uint8Array): Promise<string> {
+    return this.signAndBroadcastBlock(chainId, tx)
+  }
+
   async signAndBroadcastBlock(chainId: string, tx: Uint8Array): Promise<string> {
     if (!this.signClient || !this.session) throw new Error("Wallet not connected")
     const iconLink = (globalContext.document.querySelector("link[rel*='icon']") as HTMLLinkElement)?.href
