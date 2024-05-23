@@ -1,0 +1,21 @@
+{
+  "chainId": "initiation-1",
+  "displayName": "Initia testnet",
+
+  "omnitia": "https://omni-api.initiation-1.initia.xyz",
+  "swaplist": "https://list.initiation-1.initia.xyz/pairs.json",
+
+  "rpc": "https://rpc.initiation-1.initia.xyz",
+  "rest": "https://lcd.initiation-1.initia.xyz",
+  "api": "https://api.initiation-1.initia.xyz",
+
+  "ws": "wss://rpc.initiation-1.initia.xyz/websocket",
+  "explorer": "https://scan.testnet.initia.xyz",
+  "logo": "https://assets.initia.xyz/images/chains/Initia.webp",
+
+  "modules": {
+    "usernames": "0x42cd8467b1c86e59bf319e5664a09b6b5840bb3fac64f5ce690b5041c530565a",
+    "dex_utils": "0x42cd8467b1c86e59bf319e5664a09b6b5840bb3fac64f5ce690b5041c530565a",
+    "swap_transfer": "0x42cd8467b1c86e59bf319e5664a09b6b5840bb3fac64f5ce690b5041c530565a"
+  }
+}

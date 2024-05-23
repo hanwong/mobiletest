@@ -1,0 +1,10 @@
+{
+  "extends": ["react-app"],
+  "plugins": ["react-refresh", "@tanstack/query"],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "react-refresh/only-export-components": "warn",
+    "@tanstack/query/prefer-query-object-syntax": "warn"
+  },
+  "ignorePatterns": ["dist"]
+}

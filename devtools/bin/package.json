@@ -1,0 +1,15 @@
+{
+  "name": "@initia/bin",
+  "type": "module",
+  "bin": {
+    "update-module-path": "update-module-path.js",
+    "update-deps": "update-deps.js",
+    "collect-deps": "collect-deps.js"
+  },
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "glob": "^10.3.16",
+    "semver": "^7.6.2"
+  }
+}

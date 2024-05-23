@@ -1,0 +1,7 @@
+<script lang="ts">
+export let size: number = 16
+</script>
+
+{@html `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.333 8A6.66 6.66 0 0 1 8 1.333 6.66 6.66 0 0 1 14.667 8 6.66 6.66 0 0 1 8 14.667 6.66 6.66 0 0 1 1.333 8Zm9.06 3.333.94-.94L8.94 8l2.393-2.393-.94-.94L8 7.06 5.607 4.667l-.94.94L7.06 8l-2.393 2.393.94.94L8 8.94l2.393 2.393"/>
+</svg>`}

@@ -1,0 +1,105 @@
+[
+  {
+    "type": "message",
+    "attributes": [
+      {
+        "key": "action",
+        "value": "/initia.move.v1.MsgExecute"
+      },
+      {
+        "key": "sender",
+        "value": "init1gs9eytt8lauv6c83jsk7eakhxv30gftlskqz3d"
+      },
+      {
+        "key": "module",
+        "value": "move"
+      }
+    ]
+  },
+  {
+    "type": "execute",
+    "attributes": [
+      {
+        "key": "sender",
+        "value": "0x440b922d67ff78cd60f1942decf6d73322f4257f"
+      },
+      {
+        "key": "module_addr",
+        "value": "0x1"
+      },
+      {
+        "key": "module_name",
+        "value": "dex"
+      },
+      {
+        "key": "function_name",
+        "value": "swap_script"
+      }
+    ]
+  },
+  {
+    "type": "move",
+    "attributes": [
+      {
+        "key": "type_tag",
+        "value": "0x1::fungible_asset::WithdrawEvent"
+      },
+      {
+        "key": "data",
+        "value": "{\"store_addr\":\"0x5d6ef2d009a30b8b86f12d405edd6c724144148eaab509c47eb9eefc160d70a7\",\"metadata_addr\":\"0x8e4733bdabcf7d4afc3d14f0dd46c9bf52fb0fce9e4b996c939e195b8bc891d9\",\"amount\":\"1000000\"}"
+      }
+    ]
+  },
+  {
+    "type": "move",
+    "attributes": [
+      {
+        "key": "type_tag",
+        "value": "0x1::fungible_asset::DepositEvent"
+      },
+      {
+        "key": "data",
+        "value": "{\"store_addr\":\"0x690654f01f7e1c151861374ee12753817711e1097d1a8ece796da3a1a4ab6259\",\"metadata_addr\":\"0x8e4733bdabcf7d4afc3d14f0dd46c9bf52fb0fce9e4b996c939e195b8bc891d9\",\"amount\":\"1000000\"}"
+      }
+    ]
+  },
+  {
+    "type": "move",
+    "attributes": [
+      {
+        "key": "type_tag",
+        "value": "0x1::fungible_asset::WithdrawEvent"
+      },
+      {
+        "key": "data",
+        "value": "{\"store_addr\":\"0x3dc208a81504e56dfaef50df89353676ba9e6821be25a09df0f365947ae428c8\",\"metadata_addr\":\"0xe3a97600010bb368be99d6f4ed231aca4dbba9b6340edf3c48dfbfd0474e92e8\",\"amount\":\"5864\"}"
+      }
+    ]
+  },
+  {
+    "type": "move",
+    "attributes": [
+      {
+        "key": "type_tag",
+        "value": "0x1::dex::SwapEvent"
+      },
+      {
+        "key": "data",
+        "value": "{\"account\":\"0x440b922d67ff78cd60f1942decf6d73322f4257f\",\"offer_coin\":\"0x8e4733bdabcf7d4afc3d14f0dd46c9bf52fb0fce9e4b996c939e195b8bc891d9\",\"return_coin\":\"0xe3a97600010bb368be99d6f4ed231aca4dbba9b6340edf3c48dfbfd0474e92e8\",\"liquidity_token\":\"0x8266545287889db3ded9096208c014d67c2ebf64968816d04b5d58344a8fb8bd\",\"offer_amount\":\"1000000\",\"return_amount\":\"5864\",\"fee_amount\":\"3000\"}"
+      }
+    ]
+  },
+  {
+    "type": "move",
+    "attributes": [
+      {
+        "key": "type_tag",
+        "value": "0x1::fungible_asset::DepositEvent"
+      },
+      {
+        "key": "data",
+        "value": "{\"store_addr\":\"0xe73f841a2f632797cf5ad9e35886afb74cc0c60d7284588ff92d100493e718d6\",\"metadata_addr\":\"0xe3a97600010bb368be99d6f4ed231aca4dbba9b6340edf3c48dfbfd0474e92e8\",\"amount\":\"5864\"}"
+      }
+    ]
+  }
+]

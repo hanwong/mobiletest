@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:svelte/recommended"],
+  "overrides": [{ "parser": "svelte-eslint-parser", "files": ["*.svelte"] }],
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "svelte/no-at-html-tags": "off"
+  },
+  "ignorePatterns": ["dist"]
+}
