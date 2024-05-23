@@ -46,6 +46,10 @@ const wallets: Wallet[] = [
     chromeWebStoreURL: CHROM_WEB_STORE_URL + "ffbceckpkpbcmgiaehlloocglmijnpmp",
   },
   {
+    name: WalletNames.InitiaMobile,
+    logo: "https://assets.initia.xyz/images/wallets/Initia.webp",
+  },
+  {
     name: WalletNames.Keplr,
     logo: "https://assets.initia.xyz/images/wallets/Keplr.webp",
     getShouldDownload: () => !window.keplr,
